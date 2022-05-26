@@ -1,4 +1,5 @@
 import React from "react";
+import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa'
 import {
   FooterContainer,
   FooterLink,
@@ -7,6 +8,12 @@ import {
   FooterLinksWrapper,
   FooterLinkTitle,
   FooterWrap,
+  SocialIconLink,
+  SocialIcons,
+  SocialLogo,
+  SocialMedia,
+  SocialMediaWrap,
+  WebsiteRights,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -48,6 +55,26 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to='/'>Quest</SocialLogo>
+            <WebsiteRights>Quest © 2022 All rights reserved</WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                  <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                  <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                  <FaLinkedin/>
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                  <FaTwitter />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );
