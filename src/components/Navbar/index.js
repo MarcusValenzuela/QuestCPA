@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
+import Logo from '../../images/Icon-WHT.png'
 import {
   Nav,
   NavbarContainer,
@@ -39,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Quest CPA
+              <img src={Logo} width='35' height='40'></img>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

@@ -1,6 +1,7 @@
 import React from "react";
 import {animateScroll as scroll} from 'react-scroll';
 import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import Logo from '../../images/Icon-WHT.png'
 import {
   FooterContainer,
   FooterLink,
@@ -62,7 +63,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>Quest</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}><img src={Logo} width='35' height='40'></img></SocialLogo>
             <WebsiteRights>Quest © 2022 All rights reserved</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
