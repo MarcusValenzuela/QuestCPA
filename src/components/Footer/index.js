@@ -1,4 +1,5 @@
 import React from "react";
+import {animateScroll as scroll} from 'react-scroll';
 import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa'
 import {
   FooterContainer,
@@ -15,6 +16,10 @@ import {
   SocialMediaWrap,
   WebsiteRights,
 } from "./FooterElements";
+
+const toggleHome = () => {
+  scroll.scrollToTop();
+};
 
 const Footer = () => {
   return (
@@ -57,7 +62,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Quest</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>Quest</SocialLogo>
             <WebsiteRights>Quest © 2022 All rights reserved</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
