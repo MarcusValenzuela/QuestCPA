@@ -12,6 +12,7 @@ import {
 } from "./HeroElements";
 import Video from "../../videos/video.mp4";
 import { Button } from "../ButtonElement";
+import Background from '../../images/cb.png'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -22,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <img src={Background} alt="" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Listen. Explore. Discover. Lead.</HeroH1>
