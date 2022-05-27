@@ -66,13 +66,13 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}><img src={Logo} width='35' height='40'></img></SocialLogo>
             <WebsiteRights>Quest © 2022 All rights reserved</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink href="//www.facebook.com/QuestTaxAndBookkeepingServices" target="_blank" aria-label="Facebook">
                   <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="//www.instagram.com/questcpa/?hl=en" target="_blank" aria-label="Instagram">
                   <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink href="//www.linkedin.com/in/tim-ewing-6806b01a/" target="_blank" aria-label="Linkedin">
                   <FaLinkedin/>
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Twitter">

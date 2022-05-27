@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: "Quest CPA solutions",
   headline: "Advanced Accounting Metrics",
   description:
-    "Work smarter and grow faster with Quest CPA as the financial hub for your business",
+    "Work smarter and grow faster with Quest CPA as the financial hub for your business. Schedule a consultation by calling xxx-xxx-xxxx or shoot an email over at xxxxxxxxxxx@yahoo.com",
   buttonLabel: "Get Started",
   imgStart: false,
   img: require("../../images/metrics.png"),
@@ -23,7 +23,7 @@ export const homeObjTwo = {
   topLine: "Dependability & Certainty",
   headline: "Committed to your security",
   description:
-    "Your data is automatically backed up. Restore previous back-ups from different time periods.",
+    "Your data is automatically backed up. Restore previous back-ups from different time periods. Schedule a consultation by calling xxx-xxx-xxxx or shoot an email over at xxxxxxxxxxx@yahoo.com",
   buttonLabel: "Get Started",
   imgStart: true,
   img: require("../../images/security.png"),
@@ -41,7 +41,7 @@ export const homeObjThree = {
   topLine: "Room to grow",
   headline: "As your business grows, we’ve got you covered",
   description:
-    "Our environment was made for growing businesses. As your team gets bigger, let new employees collaborate with control with Quest CPA.",
+    "Our environment was made for growing businesses. As your team gets bigger, let new employees collaborate with control with Quest CPA. Schedule a consultation by calling xxx-xxx-xxxx or shoot an email over at xxxxxxxxxxx@yahoo.com",
   buttonLabel: "Get Started",
   imgStart: false,
   img: require("../../images/grow.png"),
